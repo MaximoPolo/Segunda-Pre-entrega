@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Casera</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Inmobiliaria Casera</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2 class="animate_animated animate__backInUp no-override">Bienvenido a Inmobiliaria Casera</h2>
+            <p class="animate_animated animate__backInUp no-override">Ofrecemos una amplia variedad de propiedades
+                para la compra o alquiler.</p>
+            <a href="propiedades.html" class="boton">Ver propiedades</a>
+        </section>
+        <section id="propiedades">
+            <h2>Propiedades disponibles</h2>
+            <ul>
+                <li>
+                    <h3>Casa en el campo</h3>
+                    <img src="imagenes/casadecampo.jpg" alt="Casa en el campo">
+                    <p>Amplia casa en el campo, con jardín y piscina. 3 dormitorios, 2 baños, salón y cocina.</p>
+                    <a href="contacto.html" class="boton">Contactar</a>
+                </li>
+                <li>
+                    <h3>Piso céntrico</h3>
+                    <img src="imagenes/pisocentrico.jpg" alt="Piso céntrico">
+                    <p>Piso en el centro de la ciudad, cerca de todos los servicios. 2 dormitorios, 1 baño, salón y
+                        cocina.</p>
+                    <a href="contacto.html" class="boton">Contactar</a>
+                </li>
+                <li>
+                    <h3>Chalet en la playa</h3>
+                    <img src="imagenes/chalet.jpg" alt="Chalet en la playa">
+                    <p>Chalet en primera línea de playa, con impresionantes vistas al mar. 4 dormitorios, 3 baños, salón
+                        y cocina.</p>
+                    <a href="contacto.html" class="boton">Contactar</a>
+                </li>
+            </ul>
+        </section>
+        <section id="informacion">
+            <h2>Sobre nosotros</h2>
+            <p>Somos una inmobiliaria que entro hace poco tiempo al mercado, pero tenemos la firmeza y voluntad para
+                hacernos un lugar dentro de las inmobiliarias con mayor renombre y confiabilidad de la argentina.
+                Nos ubicamos en Beccar, Provincia de buenos aires pero esperamos ampliarnos a futuro para estar mas
+                conectados a nuestros clientes. Por cualquier consulta comunicarse a nuestro WhatsApp +54 9 1112345678 o
+                envianos un Email a traves de la seccion debajo.
+            </p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Seguinos en nuestras redes sociales</h2>
+        <ul>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+</body>
+
+</html>
