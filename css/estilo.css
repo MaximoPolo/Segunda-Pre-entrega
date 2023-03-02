@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding-top: 4rem;
 }
 
 a {
@@ -267,4 +269,56 @@ footer h2 {
     form button {
         margin-top: 10px;
     }
+}
+
+.propiedadmain {
+    margin-top: 6rem;
+}
+
+.sectionpropiedad {
+    margin-bottom: 2rem;
+}
+
+.sectionpropiedad img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.sectionpropiedad ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sectionpropiedad ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sectionpropiedad li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.sectionpropiedad li strong {
+    font-weight: bold;
+}
+
+.sectionpropiedad li span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+.sectionpropiedad img {
+    overflow: hidden;
+}
+
+.pileta {
+    width: 90%;
+    max-width: 240px;
 }
